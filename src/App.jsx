@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: 'Hackathon Yoga Trainer',
-    description: 'Runner-up Navodhana project that blends pose tracking and wellness habits into a lightweight mobile-first experience.',
+    description: 'Runner-up Navotthana project that blends pose tracking and wellness habits into a lightweight mobile-first experience.',
     tech: ['React', 'AI', 'Hackathon Demo'],
     repoLink: '#',
     demoLink: 'https://yogaguiderr.vercel.app/',
@@ -176,7 +176,7 @@ export default function App() {
         <section id="achievements" className="section-card">
           <h2>Achievements</h2>
           <div className="achievement-card">
-            <p className="achievement-title">Runner-Up, Navodhana 24-hour AIML Hackathon</p>
+            <p className="achievement-title">Runner-Up, Navotthana 24-hour AIML Hackathon</p>
             <p>Built an AI product prototype focused on wellness and accessibility during an intense hackathon sprint.</p>
           </div>
         </section>
