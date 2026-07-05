@@ -68,6 +68,7 @@ export default function App() {
   const [theme, setTheme] = useState('dark');
   const [message, setMessage] = useState('');
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const contactEmail = 'hello@shreya.dev';
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -75,7 +76,12 @@ export default function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setMessage('Thanks for reaching out! I\'ll get back to you soon.');
+    const subject = encodeURIComponent('Portfolio inquiry from ' + formState.name);
+    const body = encodeURIComponent(
+      `Name: ${formState.name}\nEmail: ${formState.email}\n\n${formState.message}`
+    );
+    window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`;
+    setMessage(`Your email app should open shortly. If not, please email ${contactEmail} directly.`);
     setFormState({ name: '', email: '', message: '' });
   };
 
