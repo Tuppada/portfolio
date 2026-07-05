@@ -68,7 +68,7 @@ export default function App() {
   const [theme, setTheme] = useState('dark');
   const [message, setMessage] = useState('');
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-  const contactEmail = 'hello@shreya.dev';
+  const contactEmail = 'shreyat2936@gmail.com';
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
