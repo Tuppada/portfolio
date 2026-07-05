@@ -75,7 +75,7 @@ export default function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setMessage('Thanks for reaching out! I�ll get back to you soon.');
+    setMessage('Thanks for reaching out! I\'ll get back to you soon.');
     setFormState({ name: '', email: '', message: '' });
   };
 
@@ -106,11 +106,11 @@ export default function App() {
             <p className="overline">2nd-year ISE student at JSS Academy of Technical Education, Bengaluru</p>
             <h2>Building fast, thinking product-first.</h2>
             <p className="intro">
-              I�m a self-described vibe coder who uses AI tools to ship polished experiences quickly. I focus on AI/ML, web development, DSA, and product-led growth.
+              I'm a self-described vibe coder who uses AI tools to ship polished experiences quickly. I focus on AI/ML, web development, DSA, and product-led growth.
             </p>
             <div className="hero-actions">
               <a href="#projects" className="button">Explore projects</a>
-              <a href="#contact" className="text-link">Let�s collaborate</a>
+              <a href="#contact" className="text-link">Let's collaborate</a>
             </div>
           </div>
           <div className="hero-panel">
@@ -124,7 +124,7 @@ export default function App() {
         <section id="about" className="section-card">
           <h2>About</h2>
           <p>
-            I�m currently in my second year of Information Science Engineering at JSS Academy of Technical Education, Bengaluru.
+            I'm currently in my second year of Information Science Engineering at JSS Academy of Technical Education, Bengaluru.
             I love building web experiences, solving algorithmic challenges, and exploring AI/ML products that make real user impact.
           </p>
           <div className="about-grid">
@@ -184,7 +184,7 @@ export default function App() {
         <section id="contact" className="section-card contact-section">
           <div>
             <h2>Contact</h2>
-            <p>Have an idea, collaboration, or product challenge? Let�s connect.</p>
+            <p>Have an idea, collaboration, or product challenge? Let's connect.</p>
             <div className="social-links">
               {socialLinks.map((link) => (
                 <a key={link.label} href={link.href} target="_blank" rel="noreferrer">{link.label}</a>
