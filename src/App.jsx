@@ -16,9 +16,10 @@ const projects = [
     demoLink: 'https://mediscan-2025.vercel.app/',
   },
   {
-    title: 'Crop Recommendation Tool',
-    description: 'Data-driven crop advisor built for smart agriculture decisions with soil, weather, and yield signals.',
+    title: 'AgriAssist',
+    description: 'Data-driven crop recommendation assistant that helps farmers choose the right crops using soil and climate inputs.',
     tech: ['JavaScript', 'Supabase', 'SQL'],
+    repoLink: 'https://github.com/puyeto/AgriAssist',
   },
   {
     title: 'Hackathon Yoga Trainer',
