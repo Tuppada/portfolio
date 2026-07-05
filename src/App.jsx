@@ -88,8 +88,8 @@ export default function App() {
     <div className="page-shell">
       <header className="topbar">
         <div>
-          <p className="eyebrow">Vibe coder � product-first builder</p>
-          <h1>Shreya</h1>
+          <p className="eyebrow">Vibe coder · product-first builder</p>
+          <h1>Shreya T</h1>
         </div>
         <button
           className="theme-toggle"
